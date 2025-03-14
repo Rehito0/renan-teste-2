@@ -638,7 +638,7 @@
     borderRadius: 6,
     borderWidth: 1,
     borderColor: '#6881ff',
-    padding: 10,
+    padding: 8,
   }`],
 
           editPath: [" "],

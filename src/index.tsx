@@ -519,7 +519,11 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[`{ backgroundColor: "orange", width: "100%", flexDirection: "row" }`],
+            styles:[`{
+     backgroundColor: "#0a1425", 
+     width: "100%", 
+     flexDirection: "row",
+}`],
 
             functions:[()=>{}],            childrenItems:[
         

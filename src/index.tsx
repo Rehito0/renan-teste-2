@@ -695,7 +695,7 @@
           ],
 
       styles:[`{
-     backgroundColor: "transparent",
+     backgroundColor: "#0a1425",
      justifyContent: "flex-start",
      minHeight: 22,
      width: "100%"

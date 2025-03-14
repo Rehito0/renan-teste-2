@@ -702,10 +702,10 @@
 
             styles:[`{
     flexDirection: 'row',
-    justifyContent: 'space-between';,
-    backgroundColor: 'rgb(45, 50, 73)',
-    align-items: 'center',
-    padding: '30',
+    justifyContent: 'space-between',
+    backgroundColor: '#2d3249',
+    alignItems: 'center',
+    padding: 30,
 }`],
 
             functions:[()=>{}],            childrenItems:[() =><></>],

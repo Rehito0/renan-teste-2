@@ -695,10 +695,8 @@
           ],
 
       styles:[`{
-     backgroundColor: "#0a1425",
+     backgroundColor: "#282c34",
      justifyContent: "flex-start",
-     minHeight: 22,
-     width: "100%"
 }`],    args,
         }}/>],
 

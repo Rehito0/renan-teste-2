@@ -624,7 +624,11 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[`{ flex: 1,  padding: 20 }`],
+            styles:[`{
+     flex: 1,
+     padding: 20,
+     backgroundColor: #282c34
+}`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [`<TextInput

@@ -665,7 +665,6 @@
 
             styles:[`{
      backgroundColor: "#282c34",
-     paddingVertical: 15,
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{

@@ -626,15 +626,15 @@
 
             styles:[`{ flex: 1,  padding: 20 }`],
 
-            functions:[()=>{}],            childrenItems:[
-        (...args:any) => <Elements.IptTxtEdit pass={{
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
 
-          stylesArray: [{
-                color: 'black',
-                fontSize: 14,
-                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
-              }],
+          stylesArray: [`{
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+  }`],
 
           editPath: [`sc3.forms.form1.name`],
 
@@ -645,55 +645,6 @@
         }})],
 
           args,
-        }}/>, (...args:any) => <Elements.FlatList2 pass={{
-          elementProperties: [
-            {}
-          ],
-
-          pData: `all.lists.lst2`,
-
-          itemElements: [
-            
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
-
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
-
-          children: [
-            `$arg_name`
-          ],
-
-          args,
-
-        }}/>],
-
-            args,
-          }}/>
-        
-          ],
-
-      styles:[`{ backgroundColor: "rgb(255, 255, 255)",
-    justifyContent: "flex-start",
-    minHeight: 22,
-    width: "100%"
-}`],    args,
         }}/>],
 
             args,

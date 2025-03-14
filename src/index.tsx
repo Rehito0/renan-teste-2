@@ -639,6 +639,7 @@
     height: 40,
     borderRadius: 6,
     borderWidth: 1,
+    borderColor: '#6881ff',
     padding: 10,
   }`],
 

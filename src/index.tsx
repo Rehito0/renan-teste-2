@@ -713,14 +713,9 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{
+    backgroundColor: '#2d3249',
+}`],
 
             functions:[()=>{}],            childrenItems:[
         (...args:any) => <Elements.Text pass={{
@@ -747,7 +742,10 @@
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            {
+    color: 'white',
+    fontSize: 16,
+}
           ],
 
           children: [

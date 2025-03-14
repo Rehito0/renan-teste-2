@@ -647,11 +647,7 @@
 
           editPath: [`all.lists.lt1`],
 
-          funcsArray: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: [`all.lists.lt1`],
-          value: `$arg_name`
-        }})],
+          funcsArray: [() => {}],
 
           args,
         }}/>, (...args:any) => <Elements.FlatList2 pass={{

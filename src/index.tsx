@@ -524,7 +524,7 @@
      width: "100%", 
      flexDirection: "row",
      paddingVertical: 10,
-     paddingHorizontal: 10
+     paddingHorizontal: 5,
 }`],
 
             functions:[()=>{}],            childrenItems:[

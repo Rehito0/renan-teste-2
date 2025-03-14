@@ -694,14 +694,12 @@
         
           ],
 
-      styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],    args,
+      styles:[`{
+     backgroundColor: "transparent",
+     justifyContent: "flex-start",
+     minHeight: 22,
+     width: "100%"
+}`],    args,
         }}/>],
 
             args,

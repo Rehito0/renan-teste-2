@@ -770,7 +770,7 @@
     justifyContent: 'center',
     height: 40,
     borderRadius: 6,
-    paddingVertical: 20,
+    paddingHorizontal: 20,
 }`],
 
             functions:[async (...args) =>

@@ -523,6 +523,8 @@
      backgroundColor: "#0a1425", 
      width: "100%", 
      flexDirection: "row",
+     paddingVertical: 10,
+     paddingHorizontal: 10
 }`],
 
             functions:[()=>{}],            childrenItems:[

@@ -580,36 +580,6 @@
 
             styles:[`{ flex: 1, justifyContent: "center" }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            {
-     color: "#6881ff", 
-     fontSize: 16,
-     fontFamily: 'emoji',
-}
-          ],
-
-          children: [
-            `To Do List`
-          ],
-
-          args,
-
-        }}/>],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{ width: 40, height: 40, alignItems: "center", justifyContent: "center" }`],
-
             functions:[()=>{}],            childrenItems:[
 
     (...args:any) => <Elements.ImageBox pass={{
@@ -629,6 +599,17 @@
 
       args,
     }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{ width: 40, height: 40, alignItems: "center", justifyContent: "center" }`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>

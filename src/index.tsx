@@ -633,8 +633,7 @@
             functions:[()=>{}],            childrenItems:[
         (...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [`{
-     placeholder="TESTE"
-     placeholderTextColor= "red"
+     maxLength={5}
 }`],
 
           stylesArray: [`{

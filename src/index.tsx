@@ -627,7 +627,9 @@
             styles:[`{ flex: 1,  padding: 20 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [{}],
+          propsArray: [`<TextInput
+          placeholder="useless placeholder"
+        />`],
 
           stylesArray: [`{
     height: 40,

@@ -625,7 +625,6 @@
             elementsProperties:['{}'],
 
             styles:[`{
-     flex: 1,
      padding: 20,
      backgroundColor: '#282c34'
 }`],

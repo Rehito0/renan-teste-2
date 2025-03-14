@@ -777,7 +777,24 @@
  functions.funcGroup({ args, pass:{
  arrFunctions: [()=>{}]
  , trigger: 'on press'
-}})],            childrenItems:[() =><></>],
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            {
+    color: 'white',
+}
+          ],
+
+          children: [
+            `ADICIONAR`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>

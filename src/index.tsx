@@ -630,7 +630,8 @@
      backgroundColor: '#282c34'
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [`{
      placeholder="TESTE"
      placeholderTextColor= "red"
@@ -649,6 +650,58 @@
           funcsArray: [() => {}],
 
           args,
+        }}/>, (...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: `all.lists.lt1`,
+
+          itemElements: [
+            
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `$arg_name`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        
+          ],
+
+      styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],    args,
         }}/>],
 
             args,

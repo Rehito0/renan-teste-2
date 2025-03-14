@@ -649,7 +649,8 @@
           funcsArray: [() => {}],
 
           args,
-        }}/>, (...args:any) => <Elements.FlatList2 pass={{
+        }}/>, 
+        (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
           ],
@@ -694,7 +695,24 @@
      backgroundColor: "#282c34",
      paddingVertical: 10,
 }`],    args,
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+    flexDirection: 'row',
+    justifyContent: 'space-between';,
+    backgroundColor: 'rgb(45, 50, 73)',
+    align-items: 'center',
+    padding: '30',
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>

@@ -726,7 +726,7 @@
           arrStyles: [
             {
     color: 'white',
-    fontSize: 12,
+    fontSize: 16,
 }
           ],
 
@@ -744,7 +744,7 @@
           arrStyles: [
             {
     color: 'white',
-    fontSize: 16,
+    fontSize: 12,
 }
           ],
 

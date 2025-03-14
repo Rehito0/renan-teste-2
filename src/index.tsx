@@ -631,7 +631,7 @@
 
           stylesArray: [`{
     height: 40,
-    margin: 12,
+    borderRadius: 6,
     borderWidth: 1,
     padding: 10,
   }`],

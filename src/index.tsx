@@ -588,7 +588,8 @@
           arrStyles: [
             {
      color: "#6881ff", 
-     fontSize: 16
+     fontSize: 16,
+     fontFamily: 'emoji',
 }
           ],
 

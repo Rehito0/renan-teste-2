@@ -586,7 +586,10 @@
           ],
 
           arrStyles: [
-            { color: "black", fontSize: 16 }
+            {
+     color: "#6881ff", 
+     fontSize: 16
+}
           ],
 
           children: [

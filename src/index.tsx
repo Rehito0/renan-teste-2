@@ -645,9 +645,13 @@
     padding: 8,
   }`],
 
-          editPath: [" "],
+          editPath: [`all.lists.lt1`],
 
-          funcsArray: [() => {}],
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`all.lists.lt1`],
+          value: `$arg_name`
+        }})],
 
           args,
         }}/>, (...args:any) => <Elements.FlatList2 pass={{

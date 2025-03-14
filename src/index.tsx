@@ -632,9 +632,9 @@
 
             functions:[()=>{}],            childrenItems:[
         (...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [`{
+          propsArray: [`<TextInput
      maxLength={5}
-}`],
+/>`],
 
           stylesArray: [`{
     height: 40,

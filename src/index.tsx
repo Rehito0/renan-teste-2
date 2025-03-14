@@ -540,25 +540,25 @@
 }})],            childrenItems:[(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (  <Svg
+        return (props:any) => ( <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={14}
-    height={14}
+    height={12}
     fill="red"
-    viewBox="0 0 14 14"
+    viewBox="0 0 14 12"
     {...props}
   >
     <Path
-      stroke="#000"
+      stroke="#6881ff"
       strokeLinecap="round"
       strokeLinejoin="round"
-      d="M13.5 2H.5M13.5 7H.5M13.5 12H.5"
+      d="M13.5 1H.5m13 5H.5m13 5H.5"
     />
   </Svg>)
       },
 
       svgOriginal: `
-        <svg></svg>
+        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5 1H0.5M13.5 6H0.5M13.5 11H0.5" stroke="#6881ff" stroke-linecap="round" stroke-linejoin="round"/> </svg>
       `,
 
       altura: "14px",

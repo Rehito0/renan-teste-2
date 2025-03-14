@@ -593,7 +593,7 @@
 
       styles:[{
      height: 31,
-     width: 90,
+     width: 92,
      backgroundColor: 'transparent',
 }],
 

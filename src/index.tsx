@@ -673,7 +673,9 @@
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            {
+     color: 'white',
+}
           ],
 
           children: [

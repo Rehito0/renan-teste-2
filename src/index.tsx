@@ -696,7 +696,6 @@
 
       styles:[`{
      backgroundColor: "#282c34",
-     justifyContent: "flex-start",
 }`],    args,
         }}/>],
 

@@ -638,13 +638,9 @@
     padding: 10,
   }`],
 
-          editPath: [`sc3.forms.form1.name`],
+          editPath: [" "],
 
-          funcsArray: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: [`sc3.forms.form1.name`],
-          value: `$arg_name`
-        }})],
+          funcsArray: [() => {}],
 
           args,
         }}/>],

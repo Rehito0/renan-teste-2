@@ -593,7 +593,7 @@
           ],
 
           children: [
-            `Todo List`
+            `To Do List`
           ],
 
           args,

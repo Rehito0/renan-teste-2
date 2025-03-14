@@ -627,7 +627,7 @@
             styles:[`{
      flex: 1,
      padding: 20,
-     backgroundColor: #282c34
+     backgroundColor: '#282c34'
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{

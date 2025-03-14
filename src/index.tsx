@@ -645,7 +645,7 @@
     padding: 8,
   }`],
 
-          editPath: [`all.lists.lt1`],
+          editPath: [" "],
 
           funcsArray: [() => {}],
 

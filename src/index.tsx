@@ -693,6 +693,7 @@
 
       styles:[`{
      backgroundColor: "#282c34",
+     paddingVertical: 10,
 }`],    args,
         }}/>],
 

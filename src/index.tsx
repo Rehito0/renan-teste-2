@@ -713,15 +713,12 @@
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
-      styles:[
-              {
-                height: "50px",
-                width: "80px",
-                backgroundColor: "#FDFDFD",
-                borderWidth: 2,
-                borderColor: "#EEE"
-              }
-              ],
+      styles:[{
+	width: "100%",
+	height: "100%",
+	right: 0,
+	position: 'absolute',
+}],
 
       URIvariablePath:[`https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/0e/f0/5d/20160715-130948-largejpg.jpg?w=700&h=-1&s=1`],
 

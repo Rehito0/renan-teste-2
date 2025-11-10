@@ -730,7 +730,7 @@
             elementsProperties:['{}'],
 
             styles:[`{
-    backgroundColor: '#2d3249',
+    backgroundColor: 'transparent',
 }`],
 
             functions:[()=>{}],            childrenItems:[

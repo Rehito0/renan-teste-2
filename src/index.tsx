@@ -710,6 +710,25 @@
             functions:[()=>{}],            childrenItems:[
         
 
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[
+              {
+                height: "50px",
+                width: "80px",
+                backgroundColor: "#FDFDFD",
+                borderWidth: 2,
+                borderColor: "#EEE"
+              }
+              ],
+
+      URIvariablePath:[`file:///C:/Users/Renan/Downloads/image_44.png`],
+
+      args,
+    }}/>, 
+        
+
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
